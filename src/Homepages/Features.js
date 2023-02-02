@@ -122,9 +122,9 @@ const Features = () => {
           })}
         </div>
         {/* Button Section */}
-        <div className="mt-10 flex items-center justify-center">
+        {/* <div className="mt-10 flex items-center justify-center">
           <Button to="" text="Learn More" />
-        </div>
+        </div> */}
       </section>
     </>
   )

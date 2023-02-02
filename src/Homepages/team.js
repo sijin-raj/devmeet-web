@@ -152,7 +152,11 @@ const Team = () => {
                       item.Button ? "block" : "hidden"
                     } p-2 flex justify-center items-center `}
                   >
-                    <Button to="" text={item.Button} className="" />
+                    <Button
+                      to="https://rb.gy/ndfjoy"
+                      text={item.Button}
+                      className=""
+                    />
                   </div>
                 </div>
               </div>

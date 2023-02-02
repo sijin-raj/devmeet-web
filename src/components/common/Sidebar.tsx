@@ -44,11 +44,11 @@ const Sidebar:React.FC<DataProps> = ({showSideBar, setShowSideBar}) => {
 
 
                 <div className="relative px-7 py-8 w-full mx-auto font-semibold">
-                    <Button 
+                    {/* <Button 
                         to="/#contact" 
                         text='Join Our Team'
                         width='w-full'
-                    />
+                    /> */}
                 </div>
             </div>
         </>

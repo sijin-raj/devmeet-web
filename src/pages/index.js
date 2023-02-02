@@ -69,12 +69,12 @@ const IndexPage = () => {
                     text="Join the Team"
                     width="full"
                     classNames="py-5"
-                    to=""
+                    to="https://rb.gy/ndfjoy"
                   />
                 </div>
                 <p className="text-white    text-sm">
-                  Works with your existing Team. Accepted in{" "}
-                  <span className="font-medium"> 200+ members</span>.
+                  Come together to reach the peak.{" "}
+                  {/* <span className="font-medium"> 200+ members</span>. */}
                 </p>
               </div>
             </div>

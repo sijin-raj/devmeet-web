@@ -62,9 +62,9 @@ Join here
             </div>
 
             {/* Button */}
-            <div className='hidden xl:block font-normal font-Poppins'>
+            {/* <div className='hidden xl:block font-normal font-Poppins'>
               <Button text="Coming Soon" to="#contact" />
-            </div>
+            </div> */}
 
             {/* Collapse button for mobile view */}
             <div className="block xl:hidden cursor-pointer" onClick={()=> setShowSideBar(true)}>
