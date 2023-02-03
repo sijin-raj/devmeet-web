@@ -22,7 +22,7 @@ const UseSadiq: React.FC = () => {
 
   return (
     <>
-      <section className="relative pb-8 pt-14 lg:pt-18 lg:pb-14 bg-theme_white  ">
+      <section id="about" className="relative pb-8 pt-14 lg:pt-18 lg:pb-14 bg-theme_white  ">
 
         <div className="w-full p-4 px-10  flex flex-col md:flex-row lg:flex-row items-center justify-center">
         <div className=" w-full xl:w-2/5">

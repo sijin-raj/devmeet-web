@@ -89,7 +89,7 @@ const IndexPage = () => {
         {/* Features Section */}
         <Features />
         {/* Mentors */}
-        <Mentors />
+        {/* <Mentors /> */}
 
         {/* Grow Section */}
         <Sponsers />
