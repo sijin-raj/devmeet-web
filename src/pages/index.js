@@ -14,6 +14,7 @@ import Team from "../Homepages/team"
 import Sponsers from "../Homepages/Sponsors"
 import Mentors from "../Homepages/mentor"
 import FAQS from "../Homepages/faq/faqs"
+import Welcome from "../images/welcome.mp4"
 
 const IndexPage = () => {
   const indexQueryData = useStaticQuery(graphql`
@@ -90,7 +91,9 @@ const IndexPage = () => {
         <Features />
         {/* Mentors */}
         {/* <Mentors /> */}
-
+        <div className="w-full p-2 lg:p-40  flex xl:items-center xl:justify-center">
+          <video src={Welcome} autoPlay loop muted></video>
+        </div>
         {/* Grow Section */}
         <Sponsers />
         {/* How it Works */}

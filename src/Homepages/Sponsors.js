@@ -88,7 +88,7 @@ const Sponsers = () => {
         {/* Title Section */}
         <div className="text-left mx-auto space-y-10">
           <h1 className="w-3/4 mx-auto text-lg xl:text-6xl font-poppins font-medium  text-transparent  bg-clip-text bg-gradient-to-r from-yellow-400 to-purple-600 ">
-            Sponsers
+            Sponsors
           </h1>
         </div>
 
