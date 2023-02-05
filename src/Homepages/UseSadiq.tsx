@@ -3,9 +3,9 @@ import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Button from "../components/common/Button";
 
-const About: React.FC = () => {
-  const AboutQueryData = useStaticQuery(graphql`
-    query AboutQuery {
+const UseSadiq: React.FC = () => {
+  const UseSadiqQueryData = useStaticQuery(graphql`
+    query UseSadiqQuery {
       Img: file(
         name: { eq: "about" }
         absolutePath: { regex: "/images/banner/" }
@@ -17,7 +17,7 @@ const About: React.FC = () => {
     }
   `);
 
-  const GrowImg = getImage(AboutQueryData.Img);
+  const GrowImg = getImage(UseSadiqQueryData.Img);
 
 
   return (
@@ -52,4 +52,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default UseSadiq;

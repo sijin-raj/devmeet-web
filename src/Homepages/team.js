@@ -50,33 +50,20 @@ const Team = () => {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
       }
-      Img6: file(
-        name: { eq: "team-6" }
-        absolutePath: { regex: "/images/team/" }
-      ) {
+      Img6: file(name: { eq: "team-6" }, absolutePath: { regex: "/images/" }) {
         childImageSharp {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
       }
-      Img7: file(
-        name: { eq: "team-7" }
-        absolutePath: { regex: "/images/team/" }
-      ) {
-        childImageSharp {
-          gatsbyImageData(placeholder: NONE, quality: 100)
-        }
-      }
-      Img8: file(
-        name: { eq: "team-8" }
-        absolutePath: { regex: "/images/team/" }
-      ) {
+
+      Img8: file(name: { eq: "team-7" }, absolutePath: { regex: "/images/" }) {
         childImageSharp {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
       }
       Img9: file(
         name: { eq: "member-2" }
-        absolutePath: { regex: "/images/team/" }
+        absolutePath: { regex: "/images/" }
       ) {
         childImageSharp {
           gatsbyImageData(placeholder: NONE, quality: 100)
@@ -91,7 +78,7 @@ const Team = () => {
   const Img_4 = getImage(TeamQueryData.Img4)
   const Img_5 = getImage(TeamQueryData.Img5)
   const Img_6 = getImage(TeamQueryData.Img6)
-  const Img_7 = getImage(TeamQueryData.Img7)
+  const Img_8 = getImage(TeamQueryData.Img8)
   const Img_9 = getImage(TeamQueryData.Img9)
 
   const itemsList = [
@@ -129,7 +116,7 @@ const Team = () => {
       Name: "Surya Prakash ",
       Role: "Event Organizer",
       paragraph: "Service team @Niyo global sbm",
-      image: Img_7,
+      image: Img_8,
     },
     {
       Name: "Astle",

@@ -5,14 +5,16 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Features from "../Homepages/Features"
+import HowitWorks from "../Homepages/HowitWorks"
+import Corporate from "../Homepages/Corporate"
 import Footer from "../components/common/Footer"
 import Button from "../components/common/Button"
+import UseSadiq from "../Homepages/UseSadiq"
 import Team from "../Homepages/team"
 import Sponsers from "../Homepages/Sponsors"
 import Mentors from "../Homepages/mentor"
 import FAQS from "../Homepages/faq/faqs"
 import Welcome from "../images/welcome.mp4"
-import About from "../Homepages/about"
 
 const IndexPage = () => {
   const indexQueryData = useStaticQuery(graphql`
@@ -83,7 +85,8 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <About />
+        <UseSadiq />
+
         {/* Features Section */}
         <Features />
         {/* Mentors */}
