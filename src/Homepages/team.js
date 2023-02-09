@@ -61,6 +61,16 @@ const Team = () => {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
       }
+      Img10: file(name: { eq: "team-8" }, absolutePath: { regex: "/images/" }) {
+        childImageSharp {
+          gatsbyImageData(placeholder: NONE, quality: 100)
+        }
+      }
+      Img11: file(name: { eq: "sivaGanesh" }, absolutePath: { regex: "/images/" }) {
+        childImageSharp {
+          gatsbyImageData(placeholder: NONE, quality: 100)
+        }
+      }
       Img9: file(
         name: { eq: "member-2" }
         absolutePath: { regex: "/images/" }
@@ -80,6 +90,9 @@ const Team = () => {
   const Img_6 = getImage(TeamQueryData.Img6)
   const Img_8 = getImage(TeamQueryData.Img8)
   const Img_9 = getImage(TeamQueryData.Img9)
+  const Img_10 = getImage(TeamQueryData.Img10)
+  const Img_11 = getImage(TeamQueryData.Img11)
+
 
   const itemsList = [
     {
@@ -99,6 +112,12 @@ const Team = () => {
       Role: "Organizer",
       paragraph: "Software Engineer @Sadiq",
       image: Img_1,
+    },
+    {
+      Name: "Siva Ganesh ",
+      Role: "Mentor",
+      paragraph: "Software Engineer @BizPilot",
+      image: Img_11,
     },
     {
       Name: "Yadeshwararam",
@@ -123,6 +142,12 @@ const Team = () => {
       Role: "Event Organizer",
       paragraph: "Open Source Contributor",
       image: Img_6,
+    },
+    {
+      Name: "Thadkshin",
+      Role: "Volunteer Coordinator",
+      paragraph: "Open Source Contributor",
+      image: Img_10,
     },
 
     {
