@@ -39,8 +39,8 @@ const Sponsers = () => {
         }
       }
       Logo5: file(
-        name: { eq: "5" }
-        absolutePath: { regex: "/images/feature/" }
+        name: { eq: "gatsbyjs" }
+        absolutePath: { regex: "/images/sponsors/" }
       ) {
         childImageSharp {
           gatsbyImageData(placeholder: NONE, quality: 100)
@@ -59,23 +59,26 @@ const Sponsers = () => {
   const itemsList = [
     {
       // title: "Professional Drivers",
-      paragraph: "Regular Meetups",
+      // paragraph: "Regular Meetups",
       image: Logo_1,
     },
     {
       // title: "Professional Drivers",
-      paragraph: "Presentations and Workshops ",
+      // paragraph: "Presentations and Workshops ",
       image: Logo_2,
     },
     {
       // title: "Professional Drivers",
-      paragraph: "Virtual and In-person events ",
+      // paragraph: "Virtual and In-person events ",
       image: Logo_3,
     },
     {
       // title: "Professional Drivers",
-      paragraph: "Mentorship",
+      // paragraph: "Mentorship",
       image: Logo_4,
+    },
+    {
+      image: Logo_5,
     },
   ]
 
@@ -92,7 +95,7 @@ const Sponsers = () => {
           </h1>
         </div>
 
-        <div className="pt-20 w-4/5 grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4  md:gap-x-10 sm:gap-y-16  gap-10  items-center justify-center mx-auto space-x-1">
+        <div className="pt-20 w-4/5 grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-5  md:gap-x-10 sm:gap-y-16  gap-10  items-center justify-center mx-auto space-x-1">
           {itemsList.map((item, index) => {
             return (
               <div
