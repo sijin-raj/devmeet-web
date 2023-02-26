@@ -66,7 +66,18 @@ const Team = () => {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
       }
-      Img11: file(name: { eq: "sivaGanesh" }, absolutePath: { regex: "/images/" }) {
+      Img11: file(
+        name: { eq: "sivaGanesh" }
+        absolutePath: { regex: "/images/" }
+      ) {
+        childImageSharp {
+          gatsbyImageData(placeholder: NONE, quality: 100)
+        }
+      }
+      Img12: file(
+        name: { eq: "team-9" }
+        absolutePath: { regex: "/images/team/" }
+      ) {
         childImageSharp {
           gatsbyImageData(placeholder: NONE, quality: 100)
         }
@@ -92,7 +103,7 @@ const Team = () => {
   const Img_9 = getImage(TeamQueryData.Img9)
   const Img_10 = getImage(TeamQueryData.Img10)
   const Img_11 = getImage(TeamQueryData.Img11)
-
+  const Img_12 = getImage(TeamQueryData.Img12)
 
   const itemsList = [
     {
@@ -136,6 +147,12 @@ const Team = () => {
       Role: "Event Organizer",
       paragraph: "Service team @Niyo global sbm",
       image: Img_8,
+    },
+    {
+      Name: "Hariharan",
+      Role: "Technical Lead",
+      paragraph: "Data scientist @Kanini software",
+      image: Img_12,
     },
     {
       Name: "Astle",
